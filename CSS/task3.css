@@ -1,0 +1,42 @@
+.pg{
+    display: flex;
+}
+.vnavbar {
+    width: 10%;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  .vnavbar a {
+    background-color: #04e2ff;
+    display: block;
+    color: #164cff;
+    text-decoration: none;
+    padding: 8px 16px;
+  }
+  
+  .vnavbar a:hover {
+    background-color: #eb701e;
+    color: white;
+  }
+  .hnavbar {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    margin-left:50px;
+    border: 1px solid black;
+  }
+  
+  .hnavbar a {
+    background-color: #d5d8d8;
+    display:inline-block;
+    color: #164cff;
+    text-decoration: none;
+    padding: 8px 16px;
+  }
+  
+  .hnavbar a:hover {
+    background-color: rgb(112, 105, 105);
+    color: white;
+  }
+  
