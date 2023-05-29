@@ -1,0 +1,11 @@
+.b{
+    margin: 10px;
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+}
+.box{
+    margin: 40px;
+    padding: 40px;
+    background-color: yellow;
+}
