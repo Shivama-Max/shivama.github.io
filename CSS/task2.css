@@ -3,8 +3,9 @@
     border: 1px solid black;
     width: fit-content;
     height: fit-content;
-    padding: 20px;
 }
 .box{
+    margin: 40px;
+    padding: 40px;
     background-color: yellow;
 }

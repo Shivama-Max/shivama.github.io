@@ -1,20 +1,33 @@
-.tb{
-    border: 1px solid black;
-    border-spacing: 0;
-    width: 100%;
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 217, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(139, 31, 211);
 }
-.tb th,td{
-    padding: 10px;
+h1{
+    margin-top: 10px;
 }
-.tb th{
-    background-color: rgb(14, 160, 50);
-    color: white;
-    text-align: left;
+.lst{
+    list-style: none;
 }
-.tb tr:nth-child(odd) {
-    background-color: #979595;
-  }
-  
-  .alternate-rows tr:nth-child(even) {
-    background-color: #ffffff;
-  }
+.lst li{
+    background-color: white;
+    display: block;
+    width: 150px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 10px;
+}
+.lst li::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 100%;
+    background-color: black;
+}
+.lst li:first-child{
+    margin-top: 30px;
+}
