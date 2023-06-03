@@ -45,24 +45,31 @@
             var sub = document.getElementById('sub');
             var mul = document.getElementById('mul');
             var div = document.getElementById('div');
-            var a = parseInt(document.getElementById('i1').value);
-            var b = parseInt(document.getElementById('i2').value);
+            
             add.addEventListener('click',function(event){
+                var a = parseInt(document.getElementById('i1').value);
+                var b = parseInt(document.getElementById('i2').value);
                 event.preventDefault();
                 var res = a+b;
                 document.getElementById('res').innerHTML = "<h4>The Result is: " + res + ".</h4>";
             })
             sub.addEventListener('click',function(event){
+                var a = parseInt(document.getElementById('i1').value);
+                var b = parseInt(document.getElementById('i2').value);
                 event.preventDefault();
                 var res = a-b;
                 document.getElementById('res').innerHTML = "<h4>The Result is: " + res + ".</h4>";
             })
             mul.addEventListener('click',function(event){
+                var a = parseInt(document.getElementById('i1').value);
+                var b = parseInt(document.getElementById('i2').value);
                 event.preventDefault();
                 var res = a*b;
                 document.getElementById('res').innerHTML = "<h4>The Result is: " + res + ".</h4>";
             })
             div.addEventListener('click',function(event){
+                var a = parseInt(document.getElementById('i1').value);
+                var b = parseInt(document.getElementById('i2').value);
                 event.preventDefault();
                 var res = a/b;
                 document.getElementById('res').innerHTML = "<h4>The Result is: " + res + ".</h4>";
